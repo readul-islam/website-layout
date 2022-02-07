@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        .login-container{
+            display: flex;
+            justify-content: center;
+           
+           
+            
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: 100px;
+            
+            
+           
+        }
+        .login-form input,button{
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            border: 1px solid lightgray;
+            padding-left: 10px;
+            border-radius: 5px;
+        }
+        .login-form button{
+            background-color: orange;
+            font-weight: 700;
+            border: 0;
+        }
+        .flexuse{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        nav{
+            display: flex;
+            justify-content:space-between ;
+        }
+        nav a {
+           
+            text-decoration: none;
+            color: black;
+            font-size: 1.5em;
+            margin-right: 20px;
+            padding: 0 10px;
+        }
+       .flexuse a:hover{
+           background-color:lightgray ; 
+           border-radius: 3px;
+        }
+        .login-form h2{
+            text-align: center;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="flexuse">
+          <div>  <a href="">Home</a></div>
+          <div> <a href="">Mobile</a></div>
+          
+          <div> <a href="">Contact</a></div>
+          <div> <a href="">About</a></div>
+        </div>
+        <div class="icon">
+            <a href=""><i style="color: lightslategray;" class="fas fa-user-circle"></i></a>
+            <a href=""><i style="color: lightslategray;" class="fas fa-sign-out-alt"></i></a>
+        </div>
+        
+        </nav>
+    </header>
+    <section class="login-container">
+        <form action="" class="login-form">
+            <h2>Login Form</h2>
+            <input type="email" name="email" placeholder="Your Email" id="">
+            <input type="password" name="password"  placeholder="Your Password" id="">
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <script src="https://kit.fontawesome.com/c38b84092d.js" crossorigin="anonymous"></script>
+</body>
+</html>
