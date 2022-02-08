@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-album{
+            border: 3px solid goldenrod;
+            width: 200px;
+            height: 150px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            margin: 10px 30px;
+        }
+        
+            
+        
+        .photo-frame img{
+            width: 100%;
+            border-radius: 10px;
+            
+        }
+        .photo-frame .photo-details{
+            display: block;
+            position: absolute;
+            width: 200px;
+            text-align: center;
+            top: 0;
+            background-color: rgba(181, 194, 110, 0.678);
+            
+        }
+        .photo-album:hover .photo-frame img{
+            transform: scale(1.5) skew(-30deg);
+            transition: transform 2s ease-in-out;
+        }
+        .photo-details h2{
+            background-color: rgb(245, 229, 6);
+            margin: 10px ;
+            border-radius: 5px;
+        }
+        .photo-frame .photo-details{
+            display: none;
+        }
+        .photo-album:hover .photo-details {
+            display: block;
+        }
+        .flexble{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <section class="flexble">
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+    <div class="photo-album">
+        <div class="photo-frame">
+            <img src="images/tiger.jpg" alt="">
+            <div class="photo-details">
+                <h2>Photo Album</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,ametarum </p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
